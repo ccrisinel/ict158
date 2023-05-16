@@ -1,8 +1,8 @@
 USE ict158;
 
 
-drop table IpRecords ;
-drop table Cities ;
+DROP TABLE IF EXISTS IpRecords;
+DROP TABLE IF EXISTS Cities ;
 
 CREATE TABLE Cities (
     `key` INT PRIMARY KEY,
